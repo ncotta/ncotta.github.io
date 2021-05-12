@@ -2,8 +2,8 @@
 
 # TO-DO: </br>
 - Custom domain
-- github/linkedin links
+- ~~github/linkedin links~~
 - Project highlights (links)
-- Name
+- ~~Name~~
 - Technical skills
 - Interests
