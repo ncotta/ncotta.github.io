@@ -6,5 +6,5 @@
 - Project highlights (links)
 - make it look pretty
 - ~~Name~~
-- Technical skills
-- Interests
+- ~~Technical skills~~
+- ~~Interests~~
