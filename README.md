@@ -8,3 +8,4 @@
 - ~~Name~~
 - ~~Technical skills~~
 - ~~Interests~~
+- steam/dnd/etc??
