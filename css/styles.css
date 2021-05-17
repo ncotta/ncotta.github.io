@@ -1,34 +1,58 @@
-h2 {
-    color:#0B742B;
-}
-
 body {
-    background-color:#1FBF7A;
+    background-color:#3a3a3a;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:15px;
 }
 
-footer {
-    text-align:center;
+h2 {
+    color:#bbbbbb;
+    font-style:normal;
 }
 
-img {
+footer {
+    text-align:center;
+
+}
+
+.github {
+    width:25px;
+}
+
+.linkedin {
+    width:25px;
+}
+
+
+.imageLeft {
     position:absolute;
-    display: block;
-    top:10px;
-    right:10px;
+    top:5px;
+    left:5px;
+}
+
+.imageRight {
+    position:absolute;
+    top:5px;
+    right:5px;
 }
 
 .top {
     /*width: 50%;*/
     /*border: 3px solid green;*/
     text-align: center;
+    color:#bbbbbb;
+    font-style: italic;
 }
 
 .skills {
+    float:right;
+    padding-right:20%;
     line-height:1.3em;
+    color:#bbbbbb;
 }
 
 .interests {
+    float:left;
+    padding-left: 20%;
     line-height:1.3em;
+    color:#bbbbbb;
 }
