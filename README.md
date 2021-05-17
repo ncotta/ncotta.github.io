@@ -9,3 +9,5 @@
 - ~~Technical skills~~
 - ~~Interests~~
 - steam/dnd/etc??
+- Resume
+- Have projects work in browser
