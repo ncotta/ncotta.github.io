@@ -16,6 +16,13 @@ footer {
     bottom:2%;
 }
 
+p.blocktext {
+    font-family: "Courier New", "Lucida Console", monospace;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 /*
 .imageLeft {
     position:absolute;
