@@ -1,5 +1,5 @@
-# Personal Webiste # 
-# Link: schwibbles.github.io # </br>
+# Personal Webiste
+# Link: schwibbles.github.io </br>
 
 # TO-DO: </br>
 - Custom domain
