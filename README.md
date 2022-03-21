@@ -1,13 +1,11 @@
-# schwibbles.github.io </br>
+# Personal Webiste
+Link: ncotta.github.io </br>
 
 # TO-DO: </br>
 - Custom domain
-- ~~github/linkedin links~~
-- Project highlights (links)
-- make it look pretty
-- ~~Name~~
-- ~~Technical skills~~
-- ~~Interests~~
-- steam/dnd/etc??
+- Additional project highlights
+- Prettify
+- Other interests (DnD, Writing, Music, Books, Plants)
 - Resume
-- Have projects work in browser
+- Have projects work in browser?
+- Javascript component would be cool
