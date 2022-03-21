@@ -23,10 +23,15 @@ p.blocktext {
     margin-right: auto;
     text-align: center;
 }
-*/
 
 .top {
     text-align: center;
+}
+
+.experience {
+    float:middle;
+    padding-right:20%;
+    line-height:1.3em;
 }
 
 .skills {
