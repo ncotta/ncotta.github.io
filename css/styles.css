@@ -16,24 +16,16 @@ footer {
     bottom:2%;
 }
 
-
-.imageLeft {
-    position:absolute;
-    top:5px;
-    left:5px;
-}
-
-.imageRight {
-    position:absolute;
-    top:5px;
-    right:5px;
+p.blocktext {
+    font-family: "Courier New", "Lucida Console", monospace;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .top {
-    /*width: 50%;*/
-    /*border: 3px solid green;*/
     text-align: center;
-    font-style: italic;
 }
 
 .skills {
