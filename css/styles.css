@@ -40,7 +40,7 @@ p.blocktext {
     display: flex;
 }
 
-.skills, .experience, .interests {
+.languages, .skills, .experience, .interests {
     display: inline-block;
     flex: 1;
   }
