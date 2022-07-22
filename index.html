@@ -4,131 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="description" content="Amazing incredible autobiography of
     Niklaas Cotta">
-    <meta name="keywords" content="niklaas cotta, nik cotta, very cool websites">
+    <meta name="keywords" content="niklaas cotta, nik cotta">
 
-    <title>About Me</title>
+    <title>Niklaas Cotta</title>
 </head>
 
-<body>
-    <div class="top">
-        <h1>Niklaas Cotta</h1>
-        <h2>Computer & Information Science B.S.</h2>
-        <a id="resume" href="/resources/Niklaas-Cotta Resume 2022.docx" download><h2>Resume</h2></a>
-    </div>
-    <hr style="width:100%"> 
-
-    <section class="title-about">
-        <h2>About Me</h2>
-        <br>
-    </section>
-    
-    <div id="wrapper-about">
-        
-        <!-- Skills Section -->
-        <section class="languages">
-            <h3>Languages</h3>
-            <ul style="list-style-type:none">
-                <li>Python</li>
-                <li>C#</li>
-                <li>C/C++</li>
-                <li>Kotlin</li>
-                <li>HTML/CSS</li>
-                <li>SQL</li>
-            </ul>
-        </section>
-
-        <section class="skills">
-            <h3>Technical Skills</h3>
-            <ul style="list-style-type:none">
-                <li>Unix/Windows OS</li>
-                <li>Databases (SQL/MongoDB)</li>
-                <li>Project Management (Git, Jira)</li>
-                <li>Game Dev (Unity)</li>
-                <li>Mobile Dev (Android Studio)</li>
-                <li>Automation (Python)</li>
-            </ul>
-        </section>
-
-        <!-- Interests Section -->
-        <section class="interests">
-            <h3>Interests</h3>
-            <ul style="list-style-type:none">
-                <li>Videogame Development & Design</li>
-                <li>Computer Networks & Security</li>
-                <li>Software Engineering & Architecture</li>
-            </ul>
-        </section>
-
-        <section class="experience">
-            <h3>Work Experience</h3>
-            <ul style="list-style-type:none">
-                <li>Infrastructure Intern (CDK Global)</li>
-            </ul>
-        </section>
-    </div>
-
-    <!-- Projects Section -->
-    <section class="projects">
-        <hr style="width:100%">  
-        <h2>Project Highlights</h2>
-        
-        <div id="imgs">
-            <div class="container">
-                <h5>RPG Character Creator (C++)</h5>
-                <a id="textbasedgame" href="https://github.com/ncotta/TextRPG">
-                    <img class="gameCode" src="images/GameCode.png" 
-                    alt="gamecode" width=300 height = 233>
-                </a>
+<body class="main-content">
+    <header class="section sec1 header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="images/profile_smaller.jpg">
+                </div>
             </div>
-
-            <div class="container">
-                <h5>Fitness Fiends (Python App)</h5>
-                <a id="fitnessfiends" href="https://github.com/ncotta/FitnessFiend">
-                    <img class="fitnessImage" src="images/kettle1.png" 
-                    alt="fitnessImage" width=186 height=240>
-                </a>
+            <div class="right-header">
+                <h1 class="name">
+                    Hello, I'm <span>Niklaas Cotta</span>
+                </h1>
+                <p>
+                    I am a graduate in Computer Science with interests in game development/design, cybersecurity, and software engineering.
+                </p>
+                <div class="btn-con">
+                    <a href="/resources/Niklaas-Cotta Resume 2022.docx" class="main-btn">
+                        <span class="btn-txt">Resume</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
             </div>
-
-            <div class="container">
-                <h5>Google Maps Places Scraper (Python)</h5>
-                <a id="googlemaps" href="https://github.com/ncotta/Google-Maps">
-                    <img class="mapsCode" src ="images/GoogleMapsCode.png" 
-                    alt="mapscode" width=300 height=233>
-                </a>
-            </div>
-
-            <div class="container">
-                <h5>Credit Card Reader (Android App)</h5>
-                <a id="rfidapp" href="https://github.com/ncotta/SecureRFID">
-                    <img class="rfidCode" src="images/securerfid.jpg" 
-                    alt="rfidCode" width=300 height=233>
-                </a>
-            </div>
-
-            <div class="container">
-                <h5>D&D Assistant, Beholder (Discord Bot)</h5>
-                <br>
-                <a id="dndbot" href="https://github.com/ncotta/DiscordBot">
-                    <img class="discordCode" src="images/beholder.jpg" 
-                    alt="discordCode">
-                </a>
-            </div>            
         </div>
-    </section>
+    </header>
+    <main>
+        <section class="section sec2 about" id="about"></section>
+        <section class="section sec3 portfolio" id="portfolio"></section>
+        <section class="section sec4 interests" id="interests"></section>
+        <section class="section sec5 contact" id="contact"></section>
+    </main>
 
-    <!-- Footer Links -->
-    <footer>
-        <a id="linkedin" href="https://www.linkedin.com/in/niklaas-cotta-3699171a8/">
-            <img src="images/linkedin.svg" alt="linkedin">
-        </a>
-        <a id="github" href="https://github.com/ncotta">
-            <img src="images/github.svg" alt="github">
-        </a>
-    </footer>
+    <div class="controls">
+        <div class="control control-1 active-btn" data-id="home">
+            <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="control control-2" data-id="about">
+            <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="control control-3" data-id="portfolio">
+            <i class="fa-solid fa-laptop-code"></i>
+        </div>
+        <div class="control control-4" data-id="interests">
+            <i class="fa-solid fa-book"></i>
+        </div>
+        <div class="control control-5" data-id="contact">
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </div>
 
+    <script src="app.js"></script>
 </body>
 </html>
