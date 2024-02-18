@@ -1,3 +1,7 @@
+# Welcome to my personal website code
+
+https://www.wix.com/blog/best-portfolio-websites
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

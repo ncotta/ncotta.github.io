@@ -1,0 +1,55 @@
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 90vh;
+    height: 100%;
+}
+
+.home-left {
+    display: flex;
+    margin-left: 1.4rem;
+    margin-top: 1.4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-picture {
+    max-width: 500px;
+    height: auto;
+    border-radius: 3px;
+}
+
+.resume-button {
+    margin-top: 15px;
+    margin-left: 7px;
+}
+
+.resume-download {
+    color: var(--cream);
+    border-radius: 15px;
+    border: 1px solid var(--dark-purple);
+    background-color: var(--blue)
+}
+
+.intro-section,
+.about-paragraph {
+    color: #5A5A5A;
+}
+
+.intro-section,
+.about-paragraph,
+.resume-download {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.resume-download:hover {
+    color: #808080;
+    transition: all 0.2s ease-out;
+}

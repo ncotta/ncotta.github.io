@@ -1,0 +1,18 @@
+* {
+    font-family: 'Lora', serif;
+    --lightest-blue: #006466;
+    --light-blue: #065a60 ;
+    --lightish-blue: #0b525b;
+    --blue: #144552;
+    --dark-blue: #1b3a4b;
+    --darkest-blue: #212f45;
+    --indigo: #272640;
+    --dark-purple: #312244;
+    --purple: #3e1f47;
+    --light-purple: #4d194d;
+    --cream: #ffffed;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
