@@ -1,0 +1,27 @@
+.contact-container {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-paragraph {
+    margin-top: 1rem;
+}
+
+.media-logo {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+}
+
+.media-logo:hover {
+    opacity: 0.5;
+}
+
+.media-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.media-list li {
+    margin-right: 12px;
+}

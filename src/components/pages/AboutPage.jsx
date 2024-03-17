@@ -2,10 +2,6 @@ import React from 'react';
 import ExperienceItem from '../helpers/ExperienceItem';
 import '../../styles/AboutPage.css';
 
-// https://brittanychiang.com/#about
-// https://www.lauren-waller.com/about
-// https://ncotta.github.io/
-
 function AboutPage() {
     return (
         <div className="about-container">
