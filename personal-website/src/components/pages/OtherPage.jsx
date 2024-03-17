@@ -1,10 +1,11 @@
 import React from 'react';
-import '../styles/OtherPage.css';
+import ConstructionPage from '../helpers/ConstructionPage';
+import '../../styles/OtherPage.css';
 
 function OtherPage() {
     return (
         <div className="other-container">
-
+            <ConstructionPage/>
         </div>
     )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './components/Navbar';
-import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
-import ContactPage from './components/ContactPage';
-import OtherPage from './components/OtherPage';
-import PortfolioPage from './components/PortfolioPage';
+import Navbar from './components/helpers/Navbar';
+import HomePage from './components/pages/HomePage';
+import AboutPage from './components/pages/AboutPage';
+import ContactPage from './components/pages/ContactPage';
+import OtherPage from './components/pages/OtherPage';
+import PortfolioPage from './components/pages/PortfolioPage';
 import { Routes, Route } from 'react-router-dom';
 import './styles/App.css';
 

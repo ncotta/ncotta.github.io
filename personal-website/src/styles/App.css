@@ -1,6 +1,7 @@
 * {
     font-family: 'Lora', serif;
-    --lightest-blue: #006466;
+    --lightest-blue: #D8EBFB;
+    --lighter-blue: #006466;
     --light-blue: #065a60 ;
     --lightish-blue: #0b525b;
     --blue: #144552;
@@ -15,4 +16,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+p, li {
+    color: #5A5A5A;
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-top: 1.4rem;
 }
