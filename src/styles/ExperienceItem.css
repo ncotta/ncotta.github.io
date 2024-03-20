@@ -3,6 +3,7 @@
     transition: all 0.5s ease;
     border: 1px solid var(--cream);
     border-radius: 5px;
+    height: 100%;   
 }
 
 .exp-item-container:hover {
@@ -11,9 +12,8 @@
 }
 
 .exp-li-snippet {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 30px;
-    margin-bottom: 12px;
     margin-right: 10px;
     list-style-type: '- ';
 }
@@ -32,7 +32,7 @@
 }
 
 .exp-item-link:hover {
-    color: #808080;
+    color: var(--grey);
     transition: all 0.3s ease-out;
 }
 
@@ -44,4 +44,8 @@
 .exp-item-title {
     margin-top: 5px;
     margin-left: 20px;
+}
+
+.skill-ul {
+    display: flex;
 }

@@ -12,6 +12,8 @@
     --purple: #3e1f47;
     --light-purple: #4d194d;
     --cream: #ffffed;
+    --dark-grey: #4c4c4c;
+    --grey: #808080;
 
     box-sizing: border-box;
     margin: 0;
@@ -19,7 +21,7 @@
 }
 
 p, li {
-    color: #5A5A5A;
+    color: var(--dark-grey);
     margin-bottom: 5px;
 }
 

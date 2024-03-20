@@ -29,7 +29,7 @@
 }
 
 .nav-links:hover {
-    color: #808080;
+    color: var(--grey);
     transition: all 0.2s ease-out
 }
 

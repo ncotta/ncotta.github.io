@@ -9,7 +9,7 @@ function AboutPage() {
                 <div className="about-paragraph">
                     <p>
                         I have been a professional developer for a little over a year. I currently work at Mentia as a Full Stack Developer. I graduated from the University of Oregon
-                        in 2022 with a Bachelor's degree in Computer Science. I am also certified in AWS.
+                        in 2022 with a Bachelor's degree in Computer Science and I still live in Oregon. I am also certified in AWS.
                     </p>
                 </div>
                 <div className="experience-container">
@@ -29,6 +29,13 @@ function AboutPage() {
                             "Wrote several scripts in Python focused on automation",
                             "Demonstrated adaptability in learning new technologies, self-management, and resilience in a startup environment"
                         ]} 
+                        skills={[
+                            "React",
+                            "PHP",
+                            "MySQL",
+                            "Kubernetes",
+                            "Python"
+                        ]}
                     />
                 </div>
             </div>
@@ -44,10 +51,10 @@ function AboutPage() {
                     </ul> 
                     <h4>I have over one year of professional experience with:</h4>
                     <ul className="skills-list">
-                        <li>Frontend -- JavaScript, React JS, NPM</li>
+                        <li>Frontend -- JavaScript, React</li>
                         <li>Backend -- PHP, CakePHP, MySQL</li>
                         <li>Automation & Deployment -- Kubernetes, Docker, GitHub Actions</li>
-                        <li>Cloud -- AWS, GCP</li>
+                        <li>Cloud -- AWS</li>
                         <li>System Administration -- Ubuntu, Apache2</li>
                         <li>Scripting -- Python</li>
                     </ul>
