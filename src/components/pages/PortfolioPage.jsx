@@ -1,15 +1,34 @@
 import React from 'react';
-import ConstructionPage from '../helpers/ConstructionPage';
+import PortfolioItem from '../helpers/PortfolioItem';
+import websiteThumbnail from '../../assets/website_thumbnail.png';
+import undergroundThumbnail from '../../assets/underground_thumbnail.png'
 import '../../styles/PortfolioPage.css';
-
-// https://brittanychiang.com
-// https://www.lauren-waller.com
-// Make <p> tags a little darker, maybe change color of h3, h4
 
 function PortfolioPage() {
     return (
         <div className="portfolio-container">
-            <ConstructionPage/>
+            <PortfolioItem 
+                thumbnail={websiteThumbnail}
+                link="https://ncotta.github.io/"
+                title="Portfolio Website"
+                summary="My current portfolio site, a significant upgrade from my old one."
+                skills={[
+                    "React",
+                    "HTML",
+                    "CSS"
+                ]}
+            />
+            <PortfolioItem 
+                thumbnail={undergroundThumbnail}
+                link="https://theunderground.gg/"
+                title="Rocket League Competition Website"
+                summary="A website made with Flask to host Rocket League competitions."
+                skills={[
+                    "JavaScript",
+                    "Python",
+                    "MySQL"
+                ]}
+            />
         </div>
     )
 }

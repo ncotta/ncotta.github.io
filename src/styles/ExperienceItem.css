@@ -3,7 +3,8 @@
     transition: all 0.5s ease;
     border: 1px solid var(--cream);
     border-radius: 5px;
-    height: 100%;   
+    height: 90%;
+    padding: 15px;
 }
 
 .exp-item-container:hover {
@@ -12,9 +13,7 @@
 }
 
 .exp-li-snippet {
-    margin-top: 15px;
-    margin-left: 30px;
-    margin-right: 10px;
+    margin-left: 20px;
     list-style-type: '- ';
 }
 
@@ -31,21 +30,15 @@
     color: inherit;
 }
 
-.exp-item-link:hover {
+.exp-item-link:hover h3 {
     color: var(--grey);
-    transition: all 0.3s ease-out;
-}
-
-.exp-item-dates {
-    margin-top: 10px;
-    margin-left: 20px;
-}
-
-.exp-item-title {
-    margin-top: 5px;
-    margin-left: 20px;
+    transition: all 0.5s ease-out;
 }
 
 .skill-ul {
     display: flex;
+}
+
+.exp-item-container h4 {
+    margin-top: 0px;
 }

@@ -16,12 +16,12 @@ function ContactPage() {
                 On the web: 
                 <ul className="media-list">
                     <li>
-                        <a href="https://github.com/ncotta">
+                        <a href="https://github.com/ncotta" target="_blank">
                             <img className="media-logo" src={github} />
                         </a>
                     </li>
                     <li>
-                        <a href="https://linkedin.com/in/niklaas-cotta">
+                        <a href="https://linkedin.com/in/niklaas-cotta" target="_blank">
                         <img className="media-logo" src={linkedin} />
                         </a>
                     </li>
