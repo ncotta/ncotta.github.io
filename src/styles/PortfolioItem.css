@@ -4,7 +4,7 @@
     border: 1px solid var(--cream);
     border-radius: 5px;
     height: 100%; 
-    width: 30vw;
+    width: 28vw;
     padding: 15px;
     padding-bottom: 25px;
 }
@@ -15,7 +15,7 @@
 }
 
 .port-item-container img { 
-    max-width: 200px;
+    max-width: 300px;
     border: 1px solid black;
     border-radius: 10px;
 }

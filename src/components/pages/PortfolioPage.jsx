@@ -20,7 +20,7 @@ function PortfolioPage() {
             />
             <PortfolioItem 
                 thumbnail={undergroundThumbnail}
-                link="https://theunderground.gg/"
+                link=""
                 title="Rocket League Competition Website"
                 summary="A website made with Flask to host Rocket League competitions."
                 skills={[
