@@ -1,10 +1,10 @@
 .contact-container {
-    margin-left: 2rem;
-    margin-top: 2rem;
+    padding: 4rem;
 }
 
-.contact-paragraph {
-    margin-top: 1rem;
+.contact-info {
+    position: absolute;
+    top: 35%;
 }
 
 .media-logo {
@@ -24,4 +24,23 @@
 
 .media-list li {
     margin-right: 12px;
+}
+
+.video-container {
+    position: relative;
+}
+
+.transparent-overlay {
+    z-index: 10;
+    top: 0;
+    width: 1020px;
+    height: 575px;
+    background-color: transparent;
+    pointer-events: none,
+}
+
+.video-player,
+.transparent-overlay {
+    position: absolute;
+    right: 0;
 }
