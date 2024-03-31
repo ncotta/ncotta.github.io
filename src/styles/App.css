@@ -6,6 +6,12 @@ body {
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+@media (max-width: 760px) {
+    body {
+        padding-top: 6rem;
+        padding-bottom: 6rem;   
+    } 
+}
 
 * {
     font-family: 'Lora', serif;
