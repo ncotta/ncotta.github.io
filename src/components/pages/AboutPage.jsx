@@ -1,17 +1,15 @@
 import React from 'react';
 import ExperienceItem from '../helpers/ExperienceItem';
-import '../../styles/AboutPage.css';
+import '../../styles/pages/AboutPage.css';
 
 function AboutPage() {
     return (
         <div className="about-container">
             <div className="about-left">
-                <div className="about-paragraph">
-                    <p>
-                        I have been a professional developer for a little over a year. I currently work at Mentia as a Full Stack Developer. I graduated from the University of Oregon
-                        in 2022 with a Bachelor's degree in Computer Science and I still live in Oregon. I am also certified in AWS.
-                    </p>
-                </div>
+                <p className="about-paragraph">
+                    I have been a professional developer for a little over a year. I currently work at Mentia as a Full Stack Developer. I graduated from the University of Oregon
+                    in 2022 with a Bachelor's degree in Computer Science and I still live in Oregon. I am also certified in AWS.
+                </p>
                 <div className="experience-container">
                     <h4>Experience</h4>
                     <ExperienceItem 
@@ -41,7 +39,7 @@ function AboutPage() {
             </div>
             <div className="about-right">
                 <div className="relevant-skills">
-                    <h4>Skills</h4>
+                    <h4 className="skills-header">Skills</h4>
                     <ul className="skills-list">
                         <li>Frontend development and UI design</li> 
                         <li>Backend development and REST API implementation</li> 
@@ -49,7 +47,7 @@ function AboutPage() {
                         <li>Cloud Architecture</li>
                         <li>Linux System Administration</li>
                     </ul> 
-                    <h4>I have over one year of professional experience with:</h4>
+                    <h4 className="exp-header">I have over one year of professional experience with:</h4>
                     <ul className="skills-list">
                         <li>Frontend -- JavaScript, React</li>
                         <li>Backend -- PHP, CakePHP, MySQL</li>
@@ -58,10 +56,7 @@ function AboutPage() {
                         <li>System Administration -- Ubuntu, Apache2</li>
                         <li>Scripting -- Python</li>
                     </ul>
-                </div>
-                
-                <div className="other-skills">
-                    <h4>I have personal experience with:</h4>
+                    <h4 className="exp-header">I have personal experience with:</h4>
                     <ul className="skills-list">
                         <li>Mobile Dev -- Kotlin</li>
                         <li>Databases -- MongoDB</li>

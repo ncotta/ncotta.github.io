@@ -1,6 +1,6 @@
 import React from "react";
 import ExperienceSkill from "./ExperienceSkill";
-import '../../styles/ExperienceItem.css';
+import '../../styles/helpers/ExperienceItem.css';
 
 function ExperienceItem({ dates, company, link, title, snippets, skills }) {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/ExperienceSkill.css';
+import '../../styles/helpers/ExperienceSkill.css';
 
 function ExperienceSkill({text}) {
     return (
