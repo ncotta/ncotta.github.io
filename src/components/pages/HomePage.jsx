@@ -2,7 +2,7 @@ import React from 'react';
 import profile_picture from '../../assets/profile_picture.jpg';
 import resume_download from '../../assets/Niklaas Cotta Resume 2024.pdf';
 import Button from '../helpers/Button';
-import '../../styles/HomePage.css';
+import '../../styles/pages/HomePage.css';
 
 function HomePage() {
 	return (

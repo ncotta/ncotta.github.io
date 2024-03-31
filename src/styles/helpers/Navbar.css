@@ -1,0 +1,31 @@
+.navbar-container {
+    width: 100%;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(90deg, var(--dark-blue) 0%, var(--darkest-blue) 100%);
+    padding: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-links {
+    color: var(--cream);
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: var(--grey);
+    transition: all 0.3s ease-out
+}

@@ -1,3 +1,7 @@
+html, body, #root {
+    height: 100%;
+}
+
 * {
     font-family: 'Lora', serif;
     --lightest-blue: #D8EBFB;
@@ -23,8 +27,4 @@
 p, li {
     color: var(--dark-grey);
     margin-bottom: 5px;
-}
-
-h4 {
-    margin-top: 1.4rem;
 }
