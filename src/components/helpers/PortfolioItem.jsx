@@ -1,9 +1,6 @@
 import React from 'react';
 import ExperienceSkill from './ExperienceSkill';
-import '../../styles/PortfolioItem.css';
-
-// https://brittanychiang.com
-// https://www.lauren-waller.com
+import '../../styles/helpers/PortfolioItem.css';
 
 function PortfolioItem({ thumbnail, link, title, summary, skills }) {
     return (

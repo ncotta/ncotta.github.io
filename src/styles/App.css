@@ -2,6 +2,11 @@ html, body, #root {
     height: 100%;
 }
 
+body {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
 * {
     font-family: 'Lora', serif;
     --lightest-blue: #D8EBFB;

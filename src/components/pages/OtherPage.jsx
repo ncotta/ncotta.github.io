@@ -2,7 +2,7 @@ import React from 'react';
 import OtherItem from '../helpers/OtherItem';
 import writingThumbnail from '../../assets/writings_map.jpg';
 import plantThumbnail from '../../assets/plant_pic.jpg';
-import '../../styles/OtherPage.css';
+import '../../styles/pages/OtherPage.css';
 
 function OtherPage() {
     return (

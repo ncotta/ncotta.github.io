@@ -3,6 +3,10 @@
     margin-bottom: 1rem;
 }
 
+.exp-skill-container:first-child {
+    margin-left: 0;
+}
+
 .text {
     color: var(--cream);
     border-radius: 15px;

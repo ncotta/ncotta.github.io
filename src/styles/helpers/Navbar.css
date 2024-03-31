@@ -1,7 +1,7 @@
 .navbar-container {
     width: 100%;
     font-size: 1.2rem;
-    position: sticky;
+    position: fixed;
     top: 0;
     background: linear-gradient(90deg, var(--dark-blue) 0%, var(--darkest-blue) 100%);
     padding: 20px;

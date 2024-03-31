@@ -1,0 +1,42 @@
+.port-item-container {
+    padding: 1rem;
+    transition: all 0.5s ease;
+    border: 1px solid var(--cream);
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.port-item-container:hover {
+    background-color: #dff5ff;
+    border-color:#c4e1eb;
+}
+
+.port-item-container img { 
+    max-width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.port-item-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.port-item-link:visited {
+    color: inherit;
+}
+
+.port-item-link:hover h3 {
+    color: var(--grey);
+    transition: all 0.5s ease-out;
+}
+
+.port-item-summary {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 780px) { 
+    .port-item-container {
+        margin-top: 0;
+    }
+}

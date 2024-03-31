@@ -1,7 +1,7 @@
 import React from 'react';
 import github from '../../assets/github-mark.png';
 import linkedin from '../../assets/linkedin-mark.png';
-import '../../styles/ContactPage.css';
+import '../../styles/pages/ContactPage.css';
 
 function ContactPage() {
     return (

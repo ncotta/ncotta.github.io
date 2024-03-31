@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/OtherItem.css';
+import '../../styles/helpers/OtherItem.css';
 
 function OtherItem({ thumbnail, title, summary }) {
     return (

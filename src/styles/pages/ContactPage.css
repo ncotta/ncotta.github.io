@@ -1,0 +1,81 @@
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem;
+    min-height: 100%;
+    gap: 2rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    min-width: 40%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.video-container {
+    position: relative;
+    min-width: 55%;
+    padding-bottom: 31%;
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+}
+
+.video-player,
+.transparent-overlay,
+.transparent-overlay svg,
+rect {
+    width: 100%;
+    height: 100%;
+}
+
+.transparent-overlay {
+    position: absolute;
+    z-index: 999;
+    background-color: transparent;
+    pointer-events: none,
+}
+
+.media-logo {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+}
+
+.media-logo:hover {
+    opacity: 0.5;
+}
+
+.media-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.media-list li {
+    margin-right: 12px;
+}
+
+@media (max-width: 760px) {
+    .contact-info, 
+    .video-container {
+        min-width: 100%;
+    }
+
+    .video-container {
+        padding-bottom: 56.5%;
+    }
+
+    .contact-container {
+        padding: 1rem;
+        gap: 0;
+    }
+
+    .contact-info {
+        padding: 1rem;
+        padding-bottom: 0;
+    }
+}

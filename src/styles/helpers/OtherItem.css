@@ -1,0 +1,28 @@
+.other-item-container {
+    padding: 1rem;
+    transition: all 0.5s ease;
+    border: 1px solid var(--cream);
+    border-radius: 5px;
+}
+
+.other-item-container:hover {
+    background-color: #dff5ff;
+    border-color:#c4e1eb;
+}
+
+.other-item-container img { 
+    max-width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.other-item-title {
+    margin-top: .5rem;
+}
+
+@media (max-width: 780px) {
+    .other-item-container,
+    .other-item-container img {
+        max-width: 100%;
+    }
+}

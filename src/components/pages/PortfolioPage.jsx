@@ -2,7 +2,7 @@ import React from 'react';
 import PortfolioItem from '../helpers/PortfolioItem';
 import websiteThumbnail from '../../assets/website_thumbnail.png';
 import undergroundThumbnail from '../../assets/underground_thumbnail.png'
-import '../../styles/PortfolioPage.css';
+import '../../styles/pages/PortfolioPage.css';
 
 function PortfolioPage() {
     return (

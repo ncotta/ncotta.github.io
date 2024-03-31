@@ -38,5 +38,11 @@
 .skill-ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+}
+
+@media (max-width: 780px) {
+    .skill-ul {
+        justify-content: center;
+    }
 }
