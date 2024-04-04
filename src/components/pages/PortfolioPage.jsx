@@ -1,7 +1,8 @@
 import React from 'react';
 import PortfolioItem from '../helpers/PortfolioItem';
 import websiteThumbnail from '../../assets/website_thumbnail.png';
-import undergroundThumbnail from '../../assets/underground_thumbnail.png'
+import undergroundThumbnail from '../../assets/underground_thumbnail.png';
+import worldbuilderThumbnail from '../../assets/worldbuilder_thumbnail.png';
 import '../../styles/pages/PortfolioPage.css';
 
 function PortfolioPage() {
@@ -16,6 +17,18 @@ function PortfolioPage() {
                     "React",
                     "HTML",
                     "CSS"
+                ]}
+            />
+            <PortfolioItem
+                thumbnail={worldbuilderThumbnail}
+                link="https://github.com/ncotta/WorldBuilder"
+                title="Worldbuilder"
+                summary="I got fed up with note-taking applications, so I'm making my own."
+                skills={[
+                    "React",
+                    "MongoDB",
+                    "Express.js",
+                    "Node.js"
                 ]}
             />
             <PortfolioItem 
