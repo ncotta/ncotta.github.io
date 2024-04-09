@@ -9,6 +9,7 @@ function PortfolioPage() {
     return (
         <div className="portfolio-container">
             <PortfolioItem 
+                github="https://github.com/ncotta/ncotta.github.io"
                 thumbnail={websiteThumbnail}
                 link="https://ncotta.github.io/"
                 title="Portfolio Website"
@@ -20,10 +21,11 @@ function PortfolioPage() {
                 ]}
             />
             <PortfolioItem
+                github="https://github.com/ncotta/WorldBuilder"
                 thumbnail={worldbuilderThumbnail}
-                link="https://github.com/ncotta/WorldBuilder"
+                link="https://worldbuilder.onrender.com"
                 title="Worldbuilder"
-                summary="I got fed up with note-taking applications, so I'm making my own."
+                summary="I got fed up with note-taking applications, so I made my own."
                 skills={[
                     "React",
                     "MongoDB",
@@ -33,7 +35,6 @@ function PortfolioPage() {
             />
             <PortfolioItem 
                 thumbnail={undergroundThumbnail}
-                link=""
                 title="Rocket League Competition Website"
                 summary="A website made with Flask to host Rocket League competitions."
                 skills={[

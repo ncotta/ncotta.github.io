@@ -9,11 +9,11 @@
 
 .text {
     color: var(--cream);
-    border-radius: 15px;
+    border-radius: 30px;
     border: 1px solid var(--dark-purple);
     background-color: var(--blue);
     text-decoration: none;
-    padding: 10px;
+    padding: 0.8rem;
 }
 
 @media (max-width: 1280px) {

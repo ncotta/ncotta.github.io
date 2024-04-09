@@ -5,3 +5,9 @@
     gap: 5rem;
     padding: 5rem;
 }
+
+@media (max-width: 768px) {
+    .portfolio-container {
+        padding: 1rem;
+    }
+}

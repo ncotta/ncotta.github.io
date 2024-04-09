@@ -11,11 +11,17 @@
     border-color:#c4e1eb;
 }
 
-.port-item-container img { 
+.port-item-container img.thumbnail { 
     max-width: 300px;
     border: 1px solid black;
     border-radius: 10px;
 }
+
+.port-item-container .icon-container {
+    display: flex;
+    gap: 0.75rem;
+}
+
 
 .port-item-link {
     text-decoration: none;
